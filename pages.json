@@ -1,0 +1,63 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/master/index/index",
+			"style": {
+				"navigationBarTitleText": "相册",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/master/login/login",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/master/discover/discover",
+            "style" : {}
+        }
+    ],
+	"subPackages": [
+		{
+			"root": "pages/album",
+			"pages": [
+				{
+					"path": "albumupload/albumupload",
+					"style": {
+						"navigationBarTitleText": "上传到相册"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "trajectory",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+	// ,
+	// "tabBar": {
+	// 	"color": "#7A7E83",
+	// 	"selectedColor": "#3cc51f",
+	// 	"borderStyle": "black",
+	// 	"backgroundColor": "#ffffff",
+	// 	"list": [
+	// 		{
+	// 			"pagePath": "pages/master/index/index",
+	// 			"iconPath": "",
+	// 			"selectedIconPath": "",
+	// 			"text": "组件1"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/master/login/login",
+	// 			"iconPath": "",
+	// 			"selectedIconPath": "",
+	// 			"text": "组件2"
+	// 		}
+	// 	]
+	// }
+}
